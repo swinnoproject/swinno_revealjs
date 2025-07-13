@@ -2,22 +2,32 @@
 
 ## Installing
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
-
 ```bash
-quarto use template <github-organization>/<%= filesafename %>
+quarto use template swinnoproject/swinno_revealjs
 ```
 
 This will install the extension and create an example qmd file that you can use as a starting place for your article.
 
-## Using
+To use the template with an existing presentation use
 
-*TODO*: Describe how to use your format.
+```bash
+quarto install extension swinnoproject/swinno_revealjs
+```
 
-## Format Options
+## Usage
 
-*TODO*: If your format has options that can be set via document metadata, describe them.
+```yaml
+---
+title: A title
+subtitle: A subtitle
+format:
+  swinno_revealjs-revealjs: default
+author:
+  - name: First Last
+    orcid: 0000-0000-0000-0000
+    email: alias@email.com
+    affiliations: Your Institution
+date: last-modified
+---
 
-## Example
-
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
+```
