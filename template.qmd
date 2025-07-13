@@ -1,0 +1,31 @@
+---
+title: Title
+format:
+  swinno_revealjs-revealjs: default
+author: 
+  - First Name Last Name
+date: last-modified
+---
+
+## Introduction
+
+The SWINNO project does research at the forefront of innovation and innovation systems. We developed and maintain a unique database of Swedish innovation from 1889 to today. Currently, we focus on innovation in the bioeconomy, innovation networks, environmental sustainability and innovation policy.
+
+## Contact Us
+
+:::{.columns}
+::: {.column}
+![](_extensions/swinno_revealjs/LU_Ekonomiho%CC%88gskolan_BLACK_ENG.png)
+:::
+::: {.column}
+
+{{< bi envelope >}} first.last@ekh.lu.se
+
+
+
+{{< bi globe2 >}} [swedishinnovationdata.se](swedishinnovationdata.se)
+
+{{< bi github >}} [@swinnoproject](https://github.com/swinnoproject)
+
+::: 
+:::

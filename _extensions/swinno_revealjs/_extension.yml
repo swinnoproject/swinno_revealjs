@@ -1,0 +1,9 @@
+title: Swinno_revealjs
+author: Philipp Jonas Kreutzer
+version: 1.0.0
+quarto-required: ">=1.7.0"
+contributes:
+  formats:
+    revealjs:
+      theme: [ archivo.scss, bw.scss ]
+      footer: SWINNO

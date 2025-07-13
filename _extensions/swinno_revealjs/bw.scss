@@ -1,0 +1,162 @@
+/*-- scss:defaults --*/
+
+$nordic-purple: #bac1f5;
+$nordic-green-800: #d0f1d6;
+$nordic-green-600: #73b4a0;
+$nordic-green-400: #356569;
+$nordic-green-200: #25434b;
+$nordic-green-100: #161324;
+
+$primary: black !default;
+$dark: black !default;
+$fontcolor: black !default;
+
+/*-- scss:rules --*/
+
+.black-background {
+    background-color: black;
+}
+
+body {
+    color: black;
+    font-weight: $font-weight-normal;
+}
+
+a[target="_blank"]::after {
+    content: "";
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/></svg>');
+    background-size: 1rem;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.25rem;
+}
+
+/*-- headings style --*/
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    text-transform: none;
+    // letter-spacing: 3px;
+}
+
+/*-- about style --*/
+
+/*-- card style --*/
+
+.quarto-grid-item .card-subtitle {
+    font-weight: $font-weight-extra-light;
+}
+
+.card {
+    border: 1.5px solid black;
+}
+
+/*-- navbar style --*/
+
+.navbar-title {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.navbar {
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid black;
+    text-transform: none;
+    font-size: 1rem;
+
+    a {
+        transition: transform 0.3s linear;
+        transition-property: transform;
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
+        transition-delay: 0s;
+        display: inline-block;
+    }
+
+    a:hover {
+        transform: skew(-20deg);
+    }
+
+    #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+        color: black;
+    }
+}
+
+.navbar-dark .navbar-toggler {
+    color: black;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='butt' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-footer {
+    background-color: white;
+    color: black;
+}
+
+.menu-text {
+    color: black;
+}
+
+/*-- footer style --*/
+
+.background-dark {
+    background-color: black;
+}
+
+.footer-container {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0;
+    margin-top: 2.5em;
+}
+
+.footer-text h3,
+.h3 {
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
+    border-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0px;
+}
+
+.footer-text p,
+.p {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.footer-text p > a {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.footer-text p > a:hover {
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.footer-block {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 1.8em;
+    box-sizing: border-box;
+}
