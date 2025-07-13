@@ -1,4 +1,4 @@
-# <%= title %> Format
+# A Theme for Revealjs Presentations
 
 ## Installing
 
@@ -21,7 +21,7 @@ quarto install extension swinnoproject/swinno_revealjs
 title: A title
 subtitle: A subtitle
 format:
-  swinno_revealjs-revealjs: default
+  swinnoproject/swinno_revealjs-revealjs: default
 author:
   - name: First Last
     orcid: 0000-0000-0000-0000
